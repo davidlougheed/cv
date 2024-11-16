@@ -1,8 +1,10 @@
-#let header() = {
+#let header(academic: false) = {
   align(center)[
     = David Lougheed
 
-    Full-Stack Software Developer • Bioinformatician
+    #if not academic {
+      [Full-Stack Software Developer • Bioinformatician]
+    }
     #block(width: 100%, above: 0.6em)[Montréal, Québec, Canada]
 
     Email: #underline[#link("mailto:david.lougheed@gmail.com")[david.lougheed\@gmail.com]] •

@@ -3,7 +3,7 @@
 #u.heading("Publications", extra: "Citations: 60")
 
 #let pub(title, year, authors, journal, doi) = {
-  block(width: 100%)[
+  block(width: 100%, breakable: false)[
     *#title* (#year). #authors. #text(style: "italic")[#journal]. DOI: #link("https://doi.org/" + doi)[#doi].
   ]
 }
