@@ -9,8 +9,8 @@
 
 #h.header(academic: true)
 
-#include "sections/work.typ"
 #e.education(academic: true)
+#include "sections/work.typ"
 #include "sections/publications.typ"
 #include "sections/posters.typ"
 #include "sections/skills_cv.typ"
