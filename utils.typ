@@ -33,8 +33,4 @@
   ]
 }
 
-#let pub(title, year, authors, journal, doi) = {
-  block(width: 100%)[
-    *#title* (#year). #authors. #text(style: "italic")[#journal]. DOI: #link("https://doi.org/" + doi)[#doi].
-  ]
-}
+#let me = [#underline[David R Lougheed]]
