@@ -1,6 +1,6 @@
 #import "../utils.typ" as u
 
-#u.heading("Posters and Talks")
+#u.section_heading("Posters and Talks")
 
 #let entry(title, kind, year, authors, conf) = {
   block(width: 100%, breakable: false)[

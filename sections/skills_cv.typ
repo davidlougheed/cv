@@ -1,6 +1,6 @@
 #import "../utils.typ" as u
 
-#u.heading("Skills, Languages, and Certifications")
+#u.section_heading("Skills, Languages, and Certifications")
 
 #block[
 - *Scripting and Programming Languages:*

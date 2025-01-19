@@ -1,6 +1,6 @@
 #import "../utils.typ" as u
 
-#u.heading("Work Experience")
+#u.section_heading("Work Experience")
 
 #u.work(
   [*#link("https://computationalgenomics.ca/")[Canadian Centre for Computational Genomics (C3G)],* McGill University],

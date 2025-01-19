@@ -1,7 +1,7 @@
 #import "../utils.typ" as u
 
 // #u.heading("Publications", extra: "Citations: 66")
-#u.heading("Publications")
+#u.section_heading("Publications")
 
 #let pub(title, year, authors, journal, doi) = {
   block(width: 100%, breakable: false)[

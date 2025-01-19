@@ -1,4 +1,4 @@
-#let heading(txt, extra: "") = {
+#let section_heading(txt, extra: "") = {
   block(width: 100%, above: 1.8em)[
     == #smallcaps(txt) #h(1em) #text(style: "italic", size: 10pt, weight: "regular")[#extra]
     #line(length: 100%, stroke: 1pt + black)

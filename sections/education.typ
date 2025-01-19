@@ -2,7 +2,7 @@
 
 #let education(academic: false) = {
   [
-    #u.heading("Education")
+    #u.section_heading("Education")
 
     #u.edu("Master of Science", "Department of Human Genetics", "4 / 4", "McGill University", "Montréal, QC", "2020–2022")
 
