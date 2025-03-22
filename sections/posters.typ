@@ -1,6 +1,6 @@
 #import "../utils.typ" as u
 
-#u.section_heading("Posters and Talks")
+#u.section_heading("Posters and Talks", extra: [\*Presenter])
 
 #let entry(title, kind, year, authors, conf) = {
   block(width: 100%, breakable: false)[
@@ -60,5 +60,3 @@
   numbering: n => [#{posters.len() + 1 - n}.],
   ..posters
 )
-
-\*Presenter
