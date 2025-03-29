@@ -10,16 +10,34 @@
   ]
 }
 
+#let strkit_pub = pub(
+  "STRkit: precise, read-level genotyping of short tandem repeats using long reads and single-nucleotide variation",
+  "2025",
+  [
+    #u.me, Tomi Pastinen, Guillaume Bourque
+  ],
+  "BioRxiv preprint",
+  "10.1101/2025.03.25.645269"
+)
+
+#let snipe_pub = pub(
+  "Enhancing metabarcoding of freshwater biotic communities: a new online tool for primer selection and exploring data from 14 primer pairs",
+  "2024",
+  [Orianne Tournayre, Haolun Tian, #u.me, Matthew JS Windle, Sheldon Lambert, Jennipher Carter, Zhengxin Sun, Jeff Ridal, Yuxiang Wang, Brian F Cumming, Shelley E Arnott, Stephen C Lougheed],
+  "Environmental DNA",
+  "10.1002/edn3.590"
+)
+
+#let epivar_pub = pub(
+  "EpiVar Browser: advanced exploration of epigenomics data under controlled access",
+  "2024",
+  [#u.me, Hanshi Liu, Katherine A Aracena, Romain Grégoire, Alain Pacis, Tomi Pastinen, Luis B Barreiro, Yann Joly, David Bujold, Guillaume Bourque],
+  "Bioinformatics",
+  "10.1093/bioinformatics/btae136"
+)
+
 #let submitted_pubs = (
-  pub(
-    "STRkit: precise, read-level genotyping of short tandem repeats using long reads and single-nucleotide variation",
-    "2025",
-    [
-      #u.me, Tomi Pastinen, Guillaume Bourque
-    ],
-    "BioRxiv preprint",
-    "10.1101/2025.03.25.645269"
-  ),
+  strkit_pub,
   pub(
     "The BQC19 cohort: large scale, in-depth, multi-omics characterisation of Quebec COVID-19 patients",
     "2025",
@@ -43,20 +61,8 @@
 )
 
 #let pubs = (
-  pub(
-    "Enhancing metabarcoding of freshwater biotic communities: a new online tool for primer selection and exploring data from 14 primer pairs",
-    "2024",
-    [Orianne Tournayre, Haolun Tian, #u.me, Matthew JS Windle, Sheldon Lambert, Jennipher Carter, Zhengxin Sun, Jeff Ridal, Yuxiang Wang, Brian F Cumming, Shelley E Arnott, Stephen C Lougheed],
-    "Environmental DNA",
-    "10.1002/edn3.590"
-  ),
-  pub(
-    "EpiVar Browser: advanced exploration of epigenomics data under controlled access",
-    "2024",
-    [#u.me, Hanshi Liu, Katherine A Aracena, Romain Grégoire, Alain Pacis, Tomi Pastinen, Luis B Barreiro, Yann Joly, David Bujold, Guillaume Bourque],
-    "Bioinformatics",
-    "10.1093/bioinformatics/btae136"
-  ),
+  snipe_pub,
+  epivar_pub,
   pub(
     "Epigenetic variation impacts individual differences in the transcriptional response to influenza infection",
     "2024",

@@ -7,9 +7,18 @@
 
 #let work(org, loc) = {
   block(width: 100%)[
-    #org
-    #h(1fr)
-    *#loc*
+    #grid(
+      columns: (auto, 1fr, auto),
+      align: horizon,
+      gutter: 6pt,
+      org,
+      line(length: 100%, stroke: 0.3pt),
+      loc,
+    )
+    // #org
+    // #line(length: 100%)
+    // #h(1fr)
+    // *#loc*
   ]
 }
 
