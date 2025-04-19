@@ -24,8 +24,8 @@
 
 #let work_role(role, dates, initial: false) = {
   let abv = if initial { 0.6em } else { 1.2em }
-  block(width: 100%, above: abv)[
-    #text(style: "italic")[#role] #h(1fr)
+  block(width: 100%, above: abv, below: 0.8em)[
+    #underline(role) #h(1fr)
     #dates
   ]
 }

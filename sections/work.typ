@@ -11,9 +11,9 @@
 
     #u.work_role("Software Developer", "2019–2020, 2022–present", initial: true)
 
-    - Founding developer and system architect for the Bento Platform, which facilitates the discovery, sharing, and visualization of \u{2011}omics data and associated metadata. This project is used by seven large projects, including the Québec COVID-19 Biobank, and is worked on by several full-time developers. \
+    - Founding developer and system architect for the #link("https://github.com/bento-platform")[Bento Platform], which facilitates the discovery, sharing, and visualization of \u{2011}omics data and associated metadata. This project is used by seven large projects, including the Québec COVID-19 Biobank, and is worked on by several full-time developers. \
       - Guided the technical direction of the project, delegated tasks to other developers, and met with stakeholders.
-      - *Technologies:* Python, TypeScript + React, Docker + `docker compose`, Flask, Django, FastAPI, GitHub Actions, PostgreSQL + PostGIS, Redis
+      - *Technologies:* Python, TypeScript + React + Redux, Docker + `docker compose`, Flask, Django, FastAPI, GitHub Actions, PostgreSQL + PostGIS, Redis
 
     - Principle developer on the Freezeman project from April–August 2020. Freezeman is a sample-tracking system initially created to manage samples collected during the COVID-19 pandemic. It has since grown into a laboratory information management system used by the McGill Genome Centre with over 450 000 samples. \
       *Technologies:* JavaScript + React, Python + Django, PostgreSQL
@@ -43,9 +43,18 @@
     - Helped to maintain trails and perform general facilities maintenance.
 
     #u.work([*#link("https://mcgill.ca/")[McGill University]*], "Montréal, QC")
-    #u.work_role("Course Assistant for COMP 421: Databases", "Jan–Apr 2019", initial: true)
+
+    #u.work_role("Graduate Researcher, Department of Human Genetics", "2020—2022", initial: true)
+
+    - Developed a novel genotyping algorithm and Python package for certain DNA patterns in human genome sequencing data.
+    - Created `bash` scripts for data analysis using high-performance computing (HPC) resources.
+    - Reviewed relevant literature on my topic of research and benchmarked existing genotyping approaches.
+
+    #u.work_role("Course Assistant for COMP 421: Databases", "Jan–Apr 2019")
 
     Held office hours and graded assignment questions on relational algebra and databases.
+
+    #pagebreak()
 
     #u.work(
       [*Freelance Web Developer*],
@@ -54,14 +63,14 @@
           columns: (auto, 12pt, auto),
           align: horizon,
           gutter: 3pt,
-          "2014—2015", line(length: 100%, stroke: 0.3pt), "Kingston, ON"
+          "2013—2015", line(length: 100%, stroke: 0.3pt), "Kingston, ON"
         )]
       ]
     )
     #block(above: 0.6em)[
-      Developed custom web applications, websites, and Wordpress themes for clients, including
-      a Meteor application for a local charity which managed the distribution of food to a network
-      of partner organisations.
+      Developed custom web applications, websites, and Wordpress themes for clients. Selected projects include:
+      - A Meteor application for a local charity which managed the distribution of food to a network of partner organisations.
+      - A PHP application for transparent, accountable peer review of scientific manuscripts, developed for a professor at Queen's University in Kingston, Ontario.
     ]
   ]
 }
