@@ -1,5 +1,5 @@
 #set text(size: 10pt)
-#set page(margin: 1.9cm)
+#set page(margin: 1.6cm)
 
 #import "sections/header.typ" as h
 #import "sections/education.typ" as e
@@ -12,7 +12,6 @@
 
 #e.education(academic: true)
 #w.work(academic: true)
-#pagebreak()
 #include "sections/publications.typ"
 #include "sections/posters.typ"
 #include "sections/skills_cv.typ"
