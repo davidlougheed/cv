@@ -23,7 +23,7 @@
   [
     *STRkit:* A command-line application for determining the genotypes of short tandem DNA repeats in genomic data, built with Python and Rust. Described in a BioRxiv preprint (Lougheed _et al._ 2025).
 
-    *CTF Election System:* A platform for Faculty of Science student group elections at McGill University, which during "election season" handles thousands of users. Built with Vue, Node.js, and MySQL.
+    *CTF Election System:* A platform for Faculty of Science student group elections at McGill University, which during "election season" handles thousands of users. Built with Vue, Node.js, and MySQL, with an LDAP-based authentication system connected to the university Active Directory.
   ],
   [
     *SNIPe:* a primer pair selection tool for environmental DNA studies, built with
