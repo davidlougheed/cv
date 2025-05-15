@@ -94,10 +94,19 @@
   ..submitted_pubs
 )
 
-=== Published
+=== Peer-Reviewed Articles
 
 #enum(
   tight: false,
   numbering: n => [#{pubs.len() + 1 - n}.],
   ..pubs
 )
+
+=== Other Publications
+
+- #pub(
+    "An Overview and Guide to Environmental DNA Protocols and Workflows", "2025",
+    [Orianne Tournayre, Haolun (Allen) Tian, Stafford "Rotehrá:kwas" Maracle, #u.me, Stephen C Lougheed],
+    "ReadTheDocs",
+    "10.5281/zenodo.13421371"
+  )
