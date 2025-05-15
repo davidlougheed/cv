@@ -5,8 +5,8 @@
 
 #let pub(title, year, authors, journal, doi) = {
   block(width: 100%, breakable: false)[
-    *#title* (#year). #authors. #text(style: "italic")[#journal].
-    #if(doi != "") [DOI:~#link("https://doi.org/" + doi)[#doi].]
+    *#title* (#year). #authors. #box[#text(style: "italic")[#journal]].
+    #if(doi != "") [#box[DOI:~#link("https://doi.org/" + doi)[#doi].]]
   ]
 }
 
