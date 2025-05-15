@@ -13,7 +13,7 @@
 
     - Founding developer and system architect for the #link("https://github.com/bento-platform")[Bento Platform], which facilitates the discovery, sharing, and visualization of \u{2011}omics data and associated metadata. This project is used by seven large projects, including the Québec COVID-19 Biobank, and is worked on by several full-time developers. \
       - Guided the technical direction of the project, delegated tasks to other developers, and met with stakeholders.
-      - *Technologies:* Python, TypeScript + React + Redux, Docker + `docker compose`, Flask, Django, FastAPI, GitHub Actions, PostgreSQL + PostGIS, Redis
+      - *Technologies:* Python, TypeScript + React + Redux, Docker + `docker compose`, Flask, Django, FastAPI, GitHub Actions, PostgreSQL + PostGIS, Redis, OAuth2
 
     - Principle developer on the Freezeman project from April–August 2020. Freezeman is a sample-tracking system initially created to manage samples collected during the COVID-19 pandemic. It has since grown into a laboratory information management system used by the McGill Genome Centre with over 450 000 samples. \
       *Technologies:* JavaScript + React, Python + Django, PostgreSQL
@@ -46,7 +46,11 @@
 
     #u.work_role("Graduate Researcher, Department of Human Genetics", "2020—2022", initial: true)
 
-    - Developed a novel genotyping algorithm and Python package for certain DNA patterns in human genome sequencing data.
+    - #if academic [
+      Developed a novel genotyping algorithm and Python package, #link("https://github.com/davidlougheed/strkit/")[`STRkit`], for short tandem repeat elements in human genome sequencing data.
+    ] else [
+      Developed a novel genotyping algorithm and Python package for certain DNA patterns in human genome sequencing data.
+    ]
     - Created `bash` scripts for data analysis using high-performance computing (HPC) resources.
     - Reviewed relevant literature on my topic of research and benchmarked existing genotyping approaches.
 
