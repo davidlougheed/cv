@@ -15,7 +15,7 @@
       - Guided the technical direction of the project, delegated tasks to other developers, and met with stakeholders.
       - *Technologies:* Python, TypeScript + React + Redux, Docker + `docker compose`, Flask, Django, FastAPI, GitHub Actions, PostgreSQL + PostGIS, Redis, OAuth2
 
-    - Principle developer on the Freezeman project from April–August 2020. Freezeman is a sample-tracking system initially created to manage samples collected during the COVID-19 pandemic. It has since grown into a laboratory information management system used by the McGill Genome Centre with over 450 000 samples. \
+    - Principal developer on the Freezeman sample-tracking system from April–August 2020, initially created to manage samples collected during the COVID-19 pandemic. It has since grown into a laboratory information management system used by the McGill Genome Centre with over 450 000 samples. #h(1em)
       *Technologies:* JavaScript + React, Python + Django, PostgreSQL
 
     - One of two developers on the EpiVar Portal project, a data portal for censored discovery of
