@@ -7,7 +7,7 @@
   - Proficient in Bash shell scripting, Python, and JavaScript/TypeScript.
   - Some experience with Rust, R, C++, PHP.
 - *Software Development:*
-  - Experience developing of data portals and web data visualisations, including GIS data visualisation using GeoJSON and libraries such as Leaflet.
+  - Experience developing data portals and web data visualisations, including with GIS data using GeoJSON and Leaflet.
   - Experience creating and using Docker and Apptainer containers.
   - *Libraries:*
     - *Data:* `numpy`, `scikit-learn`, Pydantic

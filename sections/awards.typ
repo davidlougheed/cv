@@ -2,5 +2,9 @@
 
 #u.section_heading("Awards")
 
-- Tomlinson Engagement Award for Mentoring (\$300)
-- J. W. McConnell Scholarship (\$3k)
+#grid(
+  columns: (1fr, 1fr),
+  gutter: 2pt,
+  [*2016:* Tomlinson Engagement Award for Mentoring (\$300)],
+  [*2015:* J. W. McConnell Scholarship (\$3k)]
+)
