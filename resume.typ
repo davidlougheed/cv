@@ -29,7 +29,7 @@
     *SNIPe:* a primer pair selection tool for environmental DNA studies, built with
     TypeScript and React. Published in _Environmental DNA_ (Tournayre _et al._ 2024).
 
-    *David's Trail Guide System:* A custom content management system and "white-label" mobile application for deploying trail guide apps, with trail layers provided as GeoJSON. Built using Flask, React, SQLite, and React Native + Expo, with OAuth2 (via Auth0) used for authentication and authorization.
+    *David's Trail Guide System:* A custom content management system and "white-label" mobile application for deploying trail guide apps, with trail layers provided as GeoJSON. Built using Flask, React, SQLite, and React Native + Expo, with OpenID Connect + OAuth2 (via Auth0) used for authentication and authorization.
   ],
 )
 

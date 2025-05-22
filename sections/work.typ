@@ -35,7 +35,7 @@
 
     #u.work_role([Bioinformatics Consultant], "2019—present (occasional)", initial: true)
 
-    Assisted in the _de novo_ creation of a chorus frog reference genome; built a pipeline for processing polar bear GTseq data.
+    Assisted in the creation of a chorus frog reference genome; built a pipeline for processing polar bear GTseq data.
 
     #u.work_role([Field / Network Technician, #link("https://qubs.ca/")[Queen's University Biological Station]], "2015–present (occasional)")
 

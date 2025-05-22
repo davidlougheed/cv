@@ -18,7 +18,7 @@
   [
     *Libraries:* `numpy`, `scikit-learn`, Pydantic, PyO3 (Rust bindings for Python), Keras; `socket.io`; Recharts, D3.js
 
-    *Standards:* OAuth2 and OpenID Connect Relying Party implementation, GeoJSON.
+    *Standards & APIs:* OAuth2 and OpenID Connect Relying Party implementation, GeoJSON, S3-compatible APIs.
 
     *Databases & Data Stores:* PostgreSQL, SQLite, MySQL, Redis
 
