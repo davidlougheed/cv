@@ -25,10 +25,13 @@ jobs:
         run: typst compile cv.typ david-lougheed-cv.pdf
       - name: Compile resumé
         run: typst compile resume.typ david-lougheed-resume.pdf
+      - name: Compile resumé (1-page)
+        run: typst compile resume_1p.typ david-lougheed-resume-1p.pdf
       - name: Upload artifacts to B2
         run: |
           b2 file upload davidlougheed-public david-lougheed-cv.pdf david-lougheed-cv.pdf
           b2 file upload davidlougheed-public david-lougheed-resume.pdf david-lougheed-resume.pdf
+          b2 file upload davidlougheed-public david-lougheed-resume-1p.pdf david-lougheed-resume-1p.pdf
         env:
           B2_APPLICATION_KEY: ${{ secrets.B2_APPLICATION_KEY }}
           B2_APPLICATION_KEY_ID: ${{ secrets.B2_APPLICATION_KEY_ID }}

@@ -13,7 +13,7 @@
       - Comfortable with `bash` scripting.
     *Frameworks:*
       - *Back End:* FastAPI, Flask/Quart, Tornado, Django, \ Node.js + Express \
-      - *Front End:* React, Redux, React Native + Expo, Vue, D3.js
+      - *Front End:* React, Redux, React Native + Expo, Vue
   ],
   [
     *Libraries:* `numpy`, `scikit-learn`, Pydantic, PyO3 (Rust bindings for Python), Keras; `socket.io`; Recharts, D3.js
