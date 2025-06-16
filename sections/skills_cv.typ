@@ -5,7 +5,7 @@
 #block[
 - *Scripting and Programming Languages:*
   - Proficient in Bash shell scripting, Python, and JavaScript/TypeScript.
-  - Some experience with Rust, R, C++, PHP.
+  - Some experience with Rust, Java, R, C++, PHP.
 - *Software Development:*
   - Experience developing data portals and web data visualisations, including with GIS data using GeoJSON and Leaflet.
   - Experience creating and using Docker and Apptainer containers.

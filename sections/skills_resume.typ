@@ -9,7 +9,7 @@
   [
     *Programming & Markup Languages:*
       - Proficient in Python, JavaScript/TypeScript, HTML, and CSS.
-      - Some experience with Rust, R, C++, PHP, Go.
+      - Some experience with Rust, Java, R, C++, PHP, Go.
       - Comfortable with `bash` scripting.
     *Frameworks:*
       - *Back End:* FastAPI, Flask/Quart, Tornado, Django, \ Node.js + Express \

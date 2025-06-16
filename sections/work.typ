@@ -9,7 +9,7 @@
       "Montréal, QC"
     )
 
-    #u.work_role("Software Developer", "2019–2020, 2022–present", initial: true)
+    #u.work_role("Software Developer, Data Team", "2019–2020, 2022–present", initial: true)
 
     - Founding developer and system architect for the #link("https://github.com/bento-platform")[Bento Platform], which facilitates the discovery, sharing, and visualization of \u{2011}omics data and associated metadata. This project is used by several large projects, including the Québec COVID-19 Biobank, and is now worked on by several full-time developers. \
       - Guided the technical direction of the project, delegated tasks to other developers, and met with stakeholders.
