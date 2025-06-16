@@ -11,10 +11,10 @@
 
     #u.work_role("Software Developer, Data Team", "2019–2020, 2022–present", initial: true)
 
-    - Founding developer and system architect for the #link("https://github.com/bento-platform")[Bento Platform], which facilitates the discovery, sharing, and visualization of #if academic [\u{2011}omic] else [large-scale genetic] data and associated metadata. This platform is used by several large projects, including the Québec COVID-19 Biobank#if not short [, and is now worked on by several full-time developers]. #if not short [
+    - Founding developer #if short [/] else [and system architect] for the #link("https://github.com/bento-platform")[Bento Platform], which facilitates the discovery, sharing, and visualization of #if academic [\u{2011}omic] else [large-scale genetic] data and associated metadata. This platform is used by several large projects, including the Québec COVID-19 Biobank#if not short [, and is now worked on by several full-time developers.
       - Guided the technical direction of the project, delegated tasks to other developers, and met with stakeholders.
-      - *Technologies:* Python, TypeScript + React + Redux, Recharts, Docker + `docker compose`, Flask, Django, FastAPI, GitHub Actions, PostgreSQL + PostGIS, Redis, OAuth2
-    ]
+      - *Technologies:* Python, TypeScript + React + Redux, Recharts, Docker + Compose, Flask, Django, FastAPI, GitHub Actions, PostgreSQL + PostGIS, Redis, OAuth2
+    ] else [.]
     #if not short [
 
     ]
@@ -38,20 +38,18 @@
       "Kingston, ON"
     )
 
-    #if not short [
-      #u.work_role([Bioinformatics Consultant], "2019—present (occasional)", initial: true)
+    #u.work_role([Bioinformatics Consultant], "2019—present (occasional)", initial: true)
 
-      - Assisted in the creation of a chorus frog reference genome (#link("https://www.biorxiv.org/content/10.1101/2024.10.27.620512v1")[bioRxiv preprint: Chen _et al._ 2024]).
-      - Built a Python pipeline for processing polar bear GTseq genotyping data.
-    ]
+    - Assisted in the creation of a chorus frog reference genome (#link("https://www.biorxiv.org/content/10.1101/2024.10.27.620512v1")[Chen _et al._ 2024]).
+    - Built a Python pipeline for processing polar bear #if not short [GTseq ]genotyping data.
 
-    #u.work_role([Software Developer, #link("https://qubs.ca/")[Queen's University Biological Station]], "2015–present (occasional)", initial: short)
+    #u.work_role([Software Developer, #link("https://qubs.ca/")[Queen's University Biological Station]], "2015–present (occasional)")
 
     - Implemented a content management system (CMS) to power a interactive trail guide mobile application with 200+ installs. #h(1em)
       *Technologies:* React Native + Expo, React, TypeScript, Python + Flask, SQLite
     - Created a data aggregation, visualization, and download platform for semi-real-time climate data generated on-premises.
-      *Technologies:* PostgreSQL, Django, JavaScript, Vue, HighCharts
-    - Developed a Drupal theme and a WordPress theme for two of station's websites.
+      *Technologies:* PostgreSQL, Python + Django, JavaScript, Vue, HighCharts
+    #if not short [- Developed a Drupal theme and a WordPress theme for two of station's websites.]
 
     #if not short [
       #u.work_role([Field / Network Technician, #link("https://qubs.ca/")[Queen's University Biological Station]], "2015–present (occasional)")
@@ -78,25 +76,29 @@
     - Created data visualizations for posters and publications.
     ]
 
-    #u.work_role("Course Assistant for COMP 421: Databases", "Jan–Apr 2019")
+    #if not short [
 
-    Held office hours and graded assignment questions on relational algebra and databases.
+      #u.work_role("Course Assistant for COMP 421: Databases", "Jan–Apr 2019")
 
-    #u.work(
-      [*Freelance Web Developer*],
-      [
-        #block[#grid(
-          columns: (auto, 12pt, auto),
-          align: horizon,
-          gutter: 3pt,
-          "2013—2015", line(length: 100%, stroke: 0.3pt), "Kingston, ON"
-        )]
+      Held office hours and graded assignment questions on relational algebra and databases.
+
+      #u.work(
+        [*Freelance Web Developer*],
+        [
+          #block[#grid(
+            columns: (auto, 12pt, auto),
+            align: horizon,
+            gutter: 3pt,
+            "2013—2015", line(length: 100%, stroke: 0.3pt), "Kingston, ON"
+          )]
+        ]
+      )
+      #block(above: 0.6em)[
+        Developed custom web applications, websites, and Wordpress themes for clients#if short [, including a local charity for food distribution.] else [. Selected projects include:
+        - A Meteor application for a local charity which managed the distribution of food to a network of partner organisations.
+        - A PHP application for transparent peer review of scientific manuscripts, developed for a professor at Queen's University#if not academic [ in Kingston, ON].]
       ]
-    )
-    #block(above: 0.6em)[
-      Developed custom web applications, websites, and Wordpress themes for clients#if short [, including a local charity for food distribution.] else [. Selected projects include:
-      - A Meteor application for a local charity which managed the distribution of food to a network of partner organisations.
-      - A PHP application for transparent peer review of scientific manuscripts, developed for a professor at Queen's University#if not academic [ in Kingston, ON].]
+
     ]
   ]
 }

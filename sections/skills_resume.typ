@@ -1,5 +1,7 @@
 #import "../utils.typ" as u
 
+#let skills_resume(languages: true) = [
+
 #u.section_heading("Skills and Languages")
 
 #grid(
@@ -28,7 +30,9 @@
   ]
 )
 
-*Languages:* Native English speaker, limited working proficiency in French.
+#if languages [
+  *Languages:* Native English speaker, limited working proficiency in French.
+]
 
 // #block[
 // - *Programming Languages:*
@@ -43,3 +47,5 @@
 // ]
 
 // - *Certifications:* Full driver's license.
+
+]

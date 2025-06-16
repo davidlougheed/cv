@@ -3,6 +3,7 @@
 
 #import "sections/header.typ" as h
 #import "sections/education.typ" as e
+#import "sections/skills_resume.typ" as sr
 #import "sections/publications.typ" as p
 #import "sections/work.typ" as w
 #import "utils.typ" as u
@@ -11,7 +12,7 @@
 
 #h.header()
 
-#include "sections/skills_resume.typ"
+#sr.skills_resume()
 #w.work(academic: false)
 #e.education(academic: false)
 
