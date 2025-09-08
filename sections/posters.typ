@@ -12,6 +12,13 @@
 
 #let posters = (
   entry(
+    "Do water courses shape microgeographic genetic connectivity in the rock hole frog in Litchfield National Park, Australia?",
+    "Poster",
+    "2025",
+    [Stephen C Lougheed\*, #u.me\*, Rute Clemente-Carvalho, Peiwen Li, Aaron Sneep, Cameron Hudson],
+    "Canadian Herpetological Society annual meeting, Université de Laval",
+  ),
+  entry(
     "New genomics tools for assessing population structure in grizzly bears and testing for hybrids between grizzly and polar bears.",
     "Oral Talk",
     "2024",
