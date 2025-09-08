@@ -13,9 +13,7 @@
 #let strkit_pub = pub(
   "STRkit: precise, read-level genotyping of short tandem repeats using long reads and single-nucleotide variation",
   "2025",
-  [
-    #u.me, Tomi Pastinen, Guillaume Bourque
-  ],
+  [#u.me, Tomi Pastinen, Guillaume Bourque],
   "BioRxiv preprint",
   "10.1101/2025.03.25.645269"
 )
@@ -37,20 +35,27 @@
 )
 
 #let submitted_pubs = (
-  strkit_pub,
   pub(
-    "The BQC19 cohort: large scale, in-depth, multi-omics characterisation of Quebec COVID-19 patients",
+    "Long-read sequencing reveals telomere inheritance patterns from human trios",
     "2025",
-    [
-      David Bujold,
-      Solomia Yanishevsky, Tania Schramek, Mylène Bertrand, Julie Bérubé, David Brownlee, Danielle Perley, Étienne Collette, Doris Ransy, ...,
-      // Marzieh Ahmadi, Somayeh Askari, Ariane Boisclair, Elizabeth Caron, Shu-huang Chen, Haig Djambazian, Andrés Finzi, Robert Eveleigh, Lena Li Chun Fong, José Hector Galvez Lopez, Pouria Jandaghi, Mark Lathrop, Sally Lee, Ju-Ling Liu, Hans Markus Munter, Jiannis Ragoussis, Anne-Marie Roy, Marlon Salim Amersi, Janick St-Cyr, Paul Stretenowich, Barathy Wesley Logendra, Patrick Willett, Brennan Brouilette, Gordon Krieger, Sanjeev Lakhwani,
-      #u.me, ...,
-      // Julian Marinez Henao, Paul Pillot, Victor Rocheleau, Ksenia Zaytseva, Michaël Chassé, Simon Décary, Emilia Liana Falcone, Pascale Léon, Daniel Kaufmann, Alexandre Montpetit, Vincent Mooser, Alain Piché, Christel Renoux, J. Brent Richards, Karine Tremblay, Sze Man Tse, Ma'n Zawati,
-      Madelaine Durand, Simon Rousseau, Daniel Auld, Guillaume Bourque],
-    [Under review in _Scientific Data_],
+    [Yuxin Zhou, #u.me, Warren A Cheung, Isabelle Thiffault, Tomi Pastinen, Guillaume Bourque],
+    [Submitted],
     ""
   ),
+  strkit_pub,
+  // pub(
+  //   "The BQC19 cohort: large scale, in-depth, multi-omics characterisation of Quebec COVID-19 patients",
+  //   "2025",
+  //   [
+  //     David Bujold,
+  //     Solomia Yanishevsky, Tania Schramek, Mylène Bertrand, Julie Bérubé, David Brownlee, Danielle Perley, Étienne Collette, Doris Ransy, ...,
+  //     // Marzieh Ahmadi, Somayeh Askari, Ariane Boisclair, Elizabeth Caron, Shu-huang Chen, Haig Djambazian, Andrés Finzi, Robert Eveleigh, Lena Li Chun Fong, José Hector Galvez Lopez, Pouria Jandaghi, Mark Lathrop, Sally Lee, Ju-Ling Liu, Hans Markus Munter, Jiannis Ragoussis, Anne-Marie Roy, Marlon Salim Amersi, Janick St-Cyr, Paul Stretenowich, Barathy Wesley Logendra, Patrick Willett, Brennan Brouilette, Gordon Krieger, Sanjeev Lakhwani,
+  //     #u.me, ...,
+  //     // Julian Marinez Henao, Paul Pillot, Victor Rocheleau, Ksenia Zaytseva, Michaël Chassé, Simon Décary, Emilia Liana Falcone, Pascale Léon, Daniel Kaufmann, Alexandre Montpetit, Vincent Mooser, Alain Piché, Christel Renoux, J. Brent Richards, Karine Tremblay, Sze Man Tse, Ma'n Zawati,
+  //     Madelaine Durand, Simon Rousseau, Daniel Auld, Guillaume Bourque],
+  //   [Under review in _Scientific Data_],
+  //   ""
+  // ),
   pub(
     "Insights on macrosynteny, ′rebel′ genes, and a new sex-linked region in anurans from comparative genomics and a new chromosome-level genome for the western chorus frog",
     "2024",
