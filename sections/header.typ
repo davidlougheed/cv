@@ -14,6 +14,10 @@
     ]
     Email: #underline[#link("mailto:david.lougheed@gmail.com")[david.lougheed\@gmail.com]] •
     GitHub: #underline[#link("https://github.com/davidlougheed")[`davidlougheed`]] •
-    LinkedIn: #underline[#link("https://linkedin.com/in/david-lougheed")[/in/david-lougheed]]
+    #if academic [
+      ORCID: #underline[#link("https://orcid.org/0000-0003-0962-543X")[`0000-0003-0962-543X`]]
+    ] else [
+      LinkedIn: #underline[#link("https://linkedin.com/in/david-lougheed")[/in/david-lougheed]]
+    ]
   ]
 }
