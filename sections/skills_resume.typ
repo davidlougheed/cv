@@ -16,17 +16,17 @@
     *Frameworks:*
       - *Back End:* FastAPI, Flask/Quart, Tornado, Django, \ Node.js + Express \
       - *Front End:* React, Redux, React Native + Expo, Vue
+
+    *DevOps:* GitHub Actions. Some experience with GitLab CI/CD.
   ],
   [
     *Libraries:* `numpy`, `scikit-learn`, Pydantic, PyO3 (Rust bindings for Python), Keras; `socket.io`; Recharts, D3.js
 
-    *Standards & APIs:* OAuth2 and OpenID Connect Relying Party implementation, GeoJSON, S3-compatible APIs.
+    *Standards & APIs:* OAuth2 and OpenID Connect Relying Party implementation, GeoJSON, S3-compatible APIs, OpenAPI and JSON schemas.
 
-    *Databases & Data Stores:* PostgreSQL, SQLite, MySQL, Redis
+    *Databases & Data Stores:* PostgreSQL, SQLite, MySQL, Redis. Some experience with NoSQL databases and concepts.
 
     *Deployment & Containerization:* Docker, Compose
-
-    *DevOps:* GitHub Actions. Some experience with GitLab CI/CD.
   ]
 )
 
