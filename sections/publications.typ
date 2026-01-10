@@ -11,11 +11,11 @@
 }
 
 #let strkit_pub = pub(
-  "STRkit: precise, read-level genotyping of short tandem repeats using long reads and single-nucleotide variation",
-  "2025",
+  "Read-level genotyping of short tandem repeats using long reads and single-nucleotide variation with STRkit",
+  "2026",
   [#u.me, Tomi Pastinen, Guillaume Bourque],
-  "BioRxiv preprint",
-  "10.1101/2025.03.25.645269"
+  [Accepted in Genome Res],
+  "10.1101/gr.280766.125"
 )
 
 #let snipe_pub = pub(
@@ -42,7 +42,6 @@
     [Submitted],
     ""
   ),
-  strkit_pub,
   // pub(
   //   "The BQC19 cohort: large scale, in-depth, multi-omics characterisation of Quebec COVID-19 patients",
   //   "2025",
@@ -66,6 +65,7 @@
 )
 
 #let pubs = (
+  strkit_pub,
   snipe_pub,
   epivar_pub,
   pub(
@@ -99,7 +99,7 @@
   ..submitted_pubs
 )
 
-=== Peer-Reviewed Articles
+=== Peer-Reviewed Journal Articles
 
 #enum(
   tight: false,
