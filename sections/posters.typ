@@ -16,7 +16,7 @@
     "Poster",
     "2025",
     [Yuxin Zhou\*, #u.me\, Warren A Cheung, Isabelle Thiffault, Tomi Pastinen, Guillaume Bourque],
-    "American Society for Human Genetics. Boston, MA, USA"
+    [(1) American Society for Human Genetics. Boston, MA, USA. (2) Canadian Epigenetics, Environment and Health Research Consortium. Banff, AB, CA]
   ),
   entry(
     "Do water courses shape microgeographic genetic connectivity in the rock hole frog in Litchfield National Park, Australia?",
