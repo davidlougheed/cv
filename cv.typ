@@ -16,5 +16,6 @@
 #include "sections/posters.typ"
 #include "sections/skills_cv.typ"
 #include "sections/leadership.typ"
+#pagebreak()
 #include "sections/awards.typ"
 #include "sections/field.typ"
