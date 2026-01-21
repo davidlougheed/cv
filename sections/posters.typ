@@ -12,7 +12,7 @@
 
 #let posters = (
   entry(
-    "Long-read sequencing reveals telomere inheritance patterns in human trios",
+    "Long-read sequencing reveals telomere inheritance patterns in human trios.",
     "Poster",
     "2025",
     [Yuxin Zhou\*, #u.me\, Warren A Cheung, Isabelle Thiffault, Tomi Pastinen, Guillaume Bourque],
