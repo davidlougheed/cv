@@ -36,6 +36,13 @@
 
 #let submitted_pubs = (
   pub(
+    "TEExplorer: a web portal to investigate TE-epigenome associations across human cell types",
+    "2026",
+    [Jeffrey Hyacinthe, #u.me, Guillaume Bourque],
+    "BioRxiv preprint",
+    "10.64898/2026.02.18.706470"
+  ),
+  pub(
     "Long-read sequencing reveals telomere inheritance patterns from human trios",
     "2025",
     [Yuxin Zhou, #u.me, Warren A Cheung, Isabelle Thiffault, Tomi Pastinen, Guillaume Bourque],
