@@ -1,5 +1,5 @@
 #set text(size: 10pt)
-#set page(margin: (x: 1.3cm, y: 1.5cm))
+#set page(margin: (x: 1cm, y: 1cm))
 
 #import "sections/header.typ" as h
 #import "sections/education.typ" as e

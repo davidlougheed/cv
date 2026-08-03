@@ -1,6 +1,6 @@
 #import "../utils.typ" as u
 
-// #u.heading("Publications", extra: "Citations: 66")
+// #u.section_heading("Publications", extra: "Citations: 129, h-index: 4")
 #u.section_heading("Publications")
 
 #let pub(title, year, authors, journal, doi) = {
@@ -14,7 +14,7 @@
   "Read-level genotyping of short tandem repeats using long reads and single-nucleotide variation with STRkit",
   "2026",
   [#u.me, Tomi Pastinen, Guillaume Bourque],
-  [Accepted in Genome Res],
+  [Genome Res],
   "10.1101/gr.280766.125"
 )
 
@@ -35,18 +35,11 @@
 )
 
 #let submitted_pubs = (
-  pub(
-    "TEExplorer: a web portal to investigate TE-epigenome associations across human cell types",
-    "2026",
-    [Jeffrey Hyacinthe, #u.me, Guillaume Bourque],
-    "BioRxiv preprint",
-    "10.64898/2026.02.18.706470"
-  ),
-  pub(
+    pub(
     "Long-read sequencing reveals telomere inheritance patterns from human trios",
     "2025",
     [Yuxin Zhou, #u.me, Warren A Cheung, Isabelle Thiffault, Tomi Pastinen, Guillaume Bourque],
-    [Submitted],
+    [In review at Nature Communications],
     ""
   ),
   // pub(
@@ -72,6 +65,13 @@
 )
 
 #let pubs = (
+  pub(
+    "TEExplorer: a web portal to investigate TE-epigenome associations across human cell types",
+    "2026",
+    [Jeffrey Hyacinthe, #u.me, Guillaume Bourque],
+    "Accepted at BMC Genomics",
+    ""
+  ),
   strkit_pub,
   snipe_pub,
   epivar_pub,

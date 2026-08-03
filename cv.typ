@@ -11,11 +11,11 @@
 #h.header(academic: true)
 
 #e.education(academic: true)
-#w.work(academic: true)
+#w.work2(academic: true)
 #include "sections/publications.typ"
 #include "sections/posters.typ"
 #include "sections/skills_cv.typ"
 #include "sections/leadership.typ"
-#pagebreak()
 #include "sections/awards.typ"
+#include "sections/academic_service.typ"
 #include "sections/field.typ"

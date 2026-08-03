@@ -10,23 +10,25 @@
 
   [
     *Programming & Markup Languages:*
-      - Proficient in Python, JavaScript/TypeScript, HTML, and CSS.
+      - Proficient in Python, TypeScript/JavaScript, HTML, and CSS.
       - Some experience with Rust, Java, R, C++, PHP, Go.
       - Comfortable with `bash` scripting.
     *Frameworks:*
-      - *Back End:* FastAPI, Flask/Quart, Tornado, Django, \ Node.js + Express \
+      - *Back End:* FastAPI, Flask, Django, Node.js + Express
       - *Front End:* React, Redux, React Native + Expo, Vue
 
     *DevOps:* GitHub Actions. Some experience with GitLab CI/CD.
+
+    *Deployment & Containerization:* Docker, Compose
   ],
   [
-    *Libraries:* `numpy`, `scikit-learn`, Pydantic, PyO3 (Rust bindings for Python), Keras; `socket.io`; Recharts, D3.js
+    *Databases & Data Stores:* PostgreSQL, SQLite, MySQL, Redis. Some experience with NoSQL databases and concepts.
+
+    *Data Manipulation:* Polars
 
     *Standards & APIs:* OAuth2 and OpenID Connect Relying Party implementation, GeoJSON, S3-compatible APIs, OpenAPI and JSON schemas.
 
-    *Databases & Data Stores:* PostgreSQL, SQLite, MySQL, Redis. Some experience with NoSQL databases and concepts.
-
-    *Deployment & Containerization:* Docker, Compose
+    *Libraries:* `numpy`, `scikit-learn`, Pydantic, PyO3 (Rust bindings for Python), Keras; `socket.io`; Recharts, D3.js
   ]
 )
 

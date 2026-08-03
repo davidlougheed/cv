@@ -1,5 +1,5 @@
 #let section_heading(txt, extra: "") = {
-  block(width: 100%, above: 1.8em)[
+  block(width: 100%, above: 1.68em)[
     == #smallcaps(txt) #h(1em) #text(style: "italic", size: 10pt, weight: "regular")[#extra]
     #line(length: 100%, stroke: 1pt + black)
   ]
@@ -22,10 +22,11 @@
   ]
 }
 
-#let work_role(role, dates, initial: false) = {
-  let abv = if initial { 0.6em } else { 1.2em }
-  block(width: 100%, above: abv, below: 0.8em)[
-    #underline(role) #h(1fr)
+#let work_role(role, dates, initial: false, continued: false, academic: false) = {
+  let abv = if initial { 0.6em } else if academic { 0.7em } else { 1.2em }
+  let blw = if continued { 0.4em } else { 0.8em }
+  block(width: 100%, above: abv, below: blw)[
+    #if academic [ #role ] else [ #underline(role) ] #h(1fr)
     #dates
   ]
 }

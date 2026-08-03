@@ -1,5 +1,5 @@
 #set text(size: 10pt)
-#set page(margin: (x: 1.3cm, y: 1.8cm))
+#set page(margin: (x: 1.3cm, y: 1.4cm))
 
 #import "sections/header.typ" as h
 #import "sections/education.typ" as e
@@ -18,13 +18,13 @@
 
 #include "sections/projects.typ"
 
-#u.section_heading("Publications")
-- Five publications in peer-reviewed academic journals, including one
-  first-authored publication.
-- Three manuscripts either in review or released as a preprint.
+// #u.section_heading("Publications")
+// - Six publications in peer-reviewed academic journals, including two
+//   first-authored publication.
+// - Three manuscripts either in review or released as a preprint.
 
-=== Selected Publications
+// === Selected Publications
 
-- #p.strkit_pub
-- #p.snipe_pub
-- #p.epivar_pub
+// - #p.strkit_pub
+// - #p.snipe_pub
+// - #p.epivar_pub
