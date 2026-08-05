@@ -69,8 +69,8 @@
     "TEExplorer: a web portal to investigate TE-epigenome associations across human cell types",
     "2026",
     [Jeffrey Hyacinthe, #u.me, Guillaume Bourque],
-    "Accepted at BMC Genomics",
-    ""
+    "BMC Genomics",
+    "10.1186/s12864-026-13215-7"
   ),
   strkit_pub,
   snipe_pub,
