@@ -2,4 +2,4 @@
 
 #u.section_heading("Professional Service")
 
-- Peer Reviewer (_Bioinformatics_, _FACETS_)
+- Peer Reviewer (_American Journal of Human Genetics_, _Bioinformatics_, _FACETS_)
