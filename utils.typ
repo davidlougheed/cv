@@ -38,7 +38,7 @@
     *#loc*
   ]
   block(width: 100%, above: 0.6em)[
-    #text(style: "italic")[#program]. #h(1em) GPA: #gpa. #h(1fr)
+    #text(style: "italic")[#program]. #if gpa != "" [#h(1em) GPA: #gpa.] #h(1fr)
     #dates
   ]
 }
