@@ -1,6 +1,6 @@
 #import "../utils.typ" as u
 
-// #u.section_heading("Publications", extra: "Citations: 129, h-index: 4")
+// #u.section_heading("Publications", extra: "Citations: 142, h-index: 5")
 #u.section_heading("Publications")
 
 #let pub(title, year, authors, journal, doi) = {
@@ -35,13 +35,6 @@
 )
 
 #let submitted_pubs = (
-    pub(
-    "Long-read sequencing reveals telomere inheritance patterns from human trios",
-    "2025",
-    [Yuxin Zhou, #u.me, Warren A Cheung, Isabelle Thiffault, Tomi Pastinen, Guillaume Bourque],
-    [In review at Nature Communications],
-    ""
-  ),
   // pub(
   //   "The BQC19 cohort: large scale, in-depth, multi-omics characterisation of Quebec COVID-19 patients",
   //   "2025",
@@ -65,6 +58,13 @@
 )
 
 #let pubs = (
+  pub(
+    "Long-read sequencing reveals telomere inheritance patterns from human trios",
+    "2026",
+    [Yuxin Zhou, #u.me, Warren A Cheung, Isabelle Thiffault, Tomi Pastinen, Guillaume Bourque],
+    [Accepted at Nature Communications],
+    ""
+  ),
   pub(
     "TEExplorer: a web portal to investigate TE-epigenome associations across human cell types",
     "2026",
