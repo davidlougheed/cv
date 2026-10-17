@@ -14,7 +14,7 @@
   "Read-level genotyping of short tandem repeats using long reads and single-nucleotide variation with STRkit",
   "2026",
   [#u.me, Tomi Pastinen, Guillaume Bourque],
-  [Genome Res],
+  [Genome Research],
   "10.1101/gr.280766.125"
 )
 
