@@ -11,7 +11,7 @@
   //   [- *Select Courses:* Statistical Concepts in Genetic and Genomic Analysis, Population Genetics.]
   // }
 
-  #u.edu([Bachelor of Science _(Hons.)_], "Joint Honours Computer Science and Biology", "3.94 / 4", "McGill University", "Montréal, QC", "2015–2019")
+  #u.edu([B.Sc. _(Hons.)_], "Joint Honours Computer Science and Biology", "3.94 / 4", "McGill University", "Montréal, QC", "2015–2019")
 
   #if not academic {
     [- *Select Courses:* Compiler Design _(team co-winner for best compiler and best "peephole" optimizer)_, Applied Machine Learning, Statistics, Honours Algorithms and Data Structures.]
