@@ -3,7 +3,11 @@
 #let education(academic: false, short: false) = [
   #u.section_heading("Education")
 
-  #u.edu("Master of Science", "Department of Human Genetics", "4 / 4", "McGill University", "Montréal, QC", "2020–2022")
+  // #u.edu("Ph.D.", "Department of Biology", "", "McGill University", "Montréal, QC", "2027–present")
+
+  // #if not short [- _Supervisor:_ Prof. Rowan Barrett]
+
+  #u.edu("M.Sc.", "Department of Human Genetics", "4 / 4", "McGill University", "Montréal, QC", "2020–2022")
 
   #if not short [- *Thesis:* #link("https://escholarship.mcgill.ca/concern/theses/jq085r38f")[Using High-Fidelity Long-Read Sequencing to Better Detect and Understand Short Tandem Repeat Variation in Humans.] _Supervisor: Prof. Guillaume Bourque_]
 
